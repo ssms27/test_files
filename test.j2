@@ -1,0 +1,5 @@
+{% if {{ vendor }} is 'Juniper' }
+delete system ntp
+{% for i in ntp %}
+set system ntp server {{ i }}
+{% endfor %}

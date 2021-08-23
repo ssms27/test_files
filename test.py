@@ -1,4 +1,3 @@
-#!/usr/local/bin/python2.7
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
@@ -11,4 +10,4 @@ with open('test.yml') as f:
 	r = yaml.load(f)
 
 for i in location:
-	print t.render(ntp=r['Juniper'][i]['ntp'])
+	print(t.render(ntp=r['Juniper'][i]['ntp']))

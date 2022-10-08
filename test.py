@@ -1,4 +1,3 @@
-#!/Users/ssms27/venv/bin/python3
 import yaml
 from jinja2 import Environment, FileSystemLoader
 from pathlib import Path
